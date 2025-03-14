@@ -4,7 +4,6 @@ import logo from '@/assets/images/navlogo.png'
 import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook,  faLinkedin, faTwitter, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -92,14 +91,14 @@ const Navbar = () => {
    
 </ul>
 </div>
-<div className="navbar-end w-[35%] md:w-50%">
+<div className=" navbar-end w-[35%] md:w-50%">
 
 
-<FontAwesomeIcon className='text-white h-10 md:h-[30px] ms-2 md:ms-5' icon={faFacebook} />
-<FontAwesomeIcon className='text-white h-10 md:h-[30px] ms-2 md:ms-5' icon={faYoutube} />
-<FontAwesomeIcon className='text-white h-10 md:h-[30px] ms-2 md:ms-5' icon={faLinkedin} />
-<FontAwesomeIcon className='text-white h-10 md:h-[30px] ms-2 md:ms-5' icon={faTwitter} />
-<FontAwesomeIcon className='text-white h-10 md:h-[30px]  ms-2 md:ms-5' icon={faWhatsapp} />
+<FontAwesomeIcon className='text-white  md:h-[30px]  ms-2 md:ms-5' icon={faFacebook} />
+<FontAwesomeIcon className='text-white  md:h-[30px]  ms-2 md:ms-5' icon={faYoutube} />
+<FontAwesomeIcon className='text-white  md:h-[30px] ms-2 md:ms-5' icon={faLinkedin} />
+<FontAwesomeIcon className='text-white  md:h-[30px] ms-2 md:ms-5' icon={faTwitter} />
+<FontAwesomeIcon className='text-white  md:h-[30px]  ms-2 md:ms-5' icon={faWhatsapp} />
 
 </div>
 </div>
