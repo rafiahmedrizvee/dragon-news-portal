@@ -1,4 +1,5 @@
 import LatestNews from '@/components/ui/LatestNews/LatestNews';
+import Sidebar from '@/components/ui/Sidebar/Sidebar';
 import React from 'react';
 
 const HomePage = () => {
@@ -7,8 +8,8 @@ const HomePage = () => {
       <div className='w-3/3 md:w-2/3 '>
      <LatestNews></LatestNews>
       </div>
-      <div className='w-3/3 md:w-1/3 bg-blue-500 '>
-      <h1>right</h1>
+      <div className='w-3/3 md:w-1/3  '>
+   <Sidebar></Sidebar>
       </div>
       
     </div>
